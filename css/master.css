@@ -33,8 +33,6 @@ img{
   font-family: 'Sacramento', cursive;
   color: yellow;
   font-size: 50px;
-  text-align: center;
-  padding: 0px 20px;
 }
 
 .menu {
@@ -43,7 +41,6 @@ img{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  overflow: hidden;
   background-color: #1E1E20;
   text-align: center;
   position: fixed;
@@ -83,11 +80,14 @@ img{
   border: 1px white inset;
   font-family: 'Amatic SC', cursive;
   font-size: 25px;
+  border-radius: 20px;
 }
 .LDMT li{
-  width: 30%;
+  vertical-align: top;
+  width: 25%;
   padding: 5px;
-  margin: 5px;
+  margin: 20px;
+  text-align: center;
   display: inline-block;
 
 }
