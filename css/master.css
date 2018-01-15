@@ -1,11 +1,33 @@
+/* Les fonts:
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+
+*/
+
+
 html, body {
-  -font-family: 'Amatic SC', cursive;
+  font-family: 'Roboto', sans-serif;
   padding: 0px;
   margin: 0px;
-  background-color: #cd4f41;
+  background-color: #111111;
+  color: white;
 }
 
+/*BANNIERE*/
+
+img{
+  width: 100%;
+    }
+
+
 /* LA BARRE DE MENU */
+
+.titre{
+  font-family: 'Fira sans', 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
 
 #sign {
   font-family: 'Sacramento', cursive;
@@ -20,9 +42,11 @@ html, body {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  width: 100%;
   overflow: hidden;
   background-color: #1E1E20;
   text-align: center;
+  position: fixed;
 }
 
 .menu li {
@@ -45,6 +69,34 @@ html, body {
 
 /*FIN DE LA BARRE DE MENU */
 
+
 /* PERFORMANCES */
 
-section ul {}
+.LDM{
+
+  margin: 40px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.LDMT{
+  border: 1px white inset;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+.LDMT li{
+  width: 30%;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+
+}
+
+}
+.LDMT li h3{
+  font-size: 35px;
+}
+
+#performances {
+  text-align: center;
+}

@@ -1,8 +1,7 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <link rel="stylesheet" href="css/master.css">
-  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fira+Sans|Roboto|Sacramento" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Wild Circus</title>
 </head>
@@ -11,27 +10,31 @@
   <header>
     <nav>
       <ul class="menu">
-        <li><a class="js-scrollTo" href="#performances">Performances</a></li>
-        <li><a class="js-scrollTo" href="#aboutus">About Us</a></li>
+        <li><a class="js-scrollTo titre" href="#performances">Performances</a></li>
+        <li><a class="js-scrollTo titre" href="#aboutus">About Us</a></li>
         <li id="sign">Wild Circus</li>
-        <li><a class="js-scrollTo" href="#prices">Prices</a></li>
-        <li><a class="js-scrollTo" href="#contact">Contact</a></li>
+        <li><a class="js-scrollTo titre" href="#prices">Prices</a></li>
+        <li><a class="js-scrollTo titre" href="#contact">Contact</a></li>
       </ul>
     </nav>
 
   </header>
+<div class="img">
 
-  <section>
-    <h2 id="performances">Performances</h2>
-    <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li" -->
-    <ul>
+<img src="http://media5.starkinsider.com/wordpress/wp-content/uploads/2016/11/Luzia-Cirque-du-Soleil-Mexico-first-look.jpg?x28372" alt="">
+
+</div>
+  <section class="LDM">
+    <h2 class="LDM "id="performances">Performances</h2>
+    <article>
+    <ul class="inline LDMT">
       <!-- performance 1 -->
       <li>
         <h3>Laugh</h3>
         <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
       </li>
       <!-- performance 2 -->
-      <li>
+      <li >
         <h3>Dream</h3>
         <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
       </li>
@@ -41,19 +44,20 @@
         <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
       </li>
     </ul>
+  </article>
   </section>
 
   <hr/>
 
   <section>
-    <h2>About Us</h2>
+    <h2 class="titre" id="aboutus"> About Us</h2>
     <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
   </section>
 
   <hr/>
 
   <section>
-    <h2>Prices</h2>
+    <h2 class="titre" id="prices">Prices</h2>
     <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
 
                                 | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
@@ -65,7 +69,7 @@
   <hr/>
 
   <section>
-    <h2>Contact Us</h2>
+    <h2 class="titre"id="contact">Contact Us</h2>
     <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message.
         Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
       -->
