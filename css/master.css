@@ -7,15 +7,18 @@ font-family: 'Sacramento', cursive;
 */
 
 html, body {
-  font-family: 'Roboto', sans-serif;
   padding: 0px;
+  font-family: 'Roboto', sans-serif;
   margin: 0px;
   background-color: #111111;
-  color: white;
-}
+  color: white;}
 
 hr {
   border: none
+}
+
+.allt{
+  padding-top: 200px;
 }
 
 /*BANNIERE*/
@@ -25,6 +28,10 @@ img {
 }
 
 /* LA BARRE DE MENU */
+
+header{
+  position: fixed;
+}
 
 .titre {
   font-family: 'Fira sans', 'Roboto', sans-serif;
@@ -39,6 +46,7 @@ img {
 }
 
 .menu {
+  position: fixed;
   font-family: 'Roboto', sans-serif;
   list-style-type: none;
   margin: 0px;
@@ -46,7 +54,6 @@ img {
   width: 100%;
   background-color: #1E1E20;
   text-align: center;
-  position: fixed;
 }
 
 .menu li {
