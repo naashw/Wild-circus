@@ -140,7 +140,7 @@ img {
 .contact form{
   margin: 0 auto;
   width: 400px;
-
+  text-align: left;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
@@ -157,5 +157,10 @@ footer a{
   color: rgb(91, 219, 219);
   font-size: 1.2em;
   text-decoration: none;
+}
 
+
+#msgc{
+  width: 400px;
+  height: auto;
 }
